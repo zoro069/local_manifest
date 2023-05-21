@@ -2,21 +2,20 @@
 <manifest>
 
   <remote name="finn"
-          fetch="https://github.com/xenfinn" />
+          fetch="https://github.com/asarefinn" />
 
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 
-  <remote name="yaosp"
-          fetch="https://gitlab.com/yaosp" />
+  <remote name="pe"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
  <!-- Trees -->
- <project path="device/xiaomi/sunny" name="device_xiaomi_sunny" remote="finn" revision="thirteen" />
- <project path="vendor/xiaomi/sunny" name="vendor_xiaomi_sunny" remote="finn" revision="thirteen" />
- <project path="kernel/xiaomi/sunny" name="kernel_xiaomi_sunny" remote="finn" revision="thirteen" />
- <project path="vendor/qcom/common" name="vendor_qcom_common" remote="thirteen" revision="yaosp" />
+ <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="finn" revision="thirteen" />
+ <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="pe" revision="thirteen" />
+ <project path="kernel/xiaomi/mojito" name="kernel_xiaomi_sunny" remote="finn" revision="thirteen" />
+ <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="finn" revision="thirteen" />
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="finn" revision="thirteen" />
- <project path="vendor/proton" name="vendor_proton" remote="finn" revision="tm" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="finn" revision="12.0.0" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="finn" revision="12.0.0" />
+ <project path=""
 </manifest>
+
