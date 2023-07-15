@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="finn"
-          fetch="https://github.com/asarefinn" />
+        <remote  name="finn"
+                fetch="https://github.com/axsrog" />
 
-  <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
+        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="finn" revision="thirteen"/>
+        <project path="kernel/xiaomi/lavender" name="kernel-pe_xiaomi_lavender" remote="finn" revision="thirteen" />
+        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="finn" revision="thirteen"/>
+        <project path="bionic" name="bionic" remote="finn" revision="thirteen" />
 
-  <remote name="pe"
-          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-
- <!-- Trees -->
- <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="finn" revision="thirteen" />
- <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="pe" revision="thirteen" />
- <project path="kernel/xiaomi/mojito" name="kernel_xiaomi_sunny" remote="finn" revision="thirteen" />
- <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="finn" revision="thirteen" />
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="finn" revision="thirteen" />
- <project path=""
 </manifest>
-
