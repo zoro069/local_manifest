@@ -5,7 +5,7 @@
                 fetch="https://github.com/axsrog" />
 
         <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="finn" revision="thirteen"/>
-        <project path="kernel/xiaomi/lavender" name="kernel-pe_xiaomi_lavender" remote="finn" revision="thirteen" />
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="finn" revision="thirteen" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="finn" revision="thirteen"/>
         <project path="bionic" name="bionic" remote="finn" revision="thirteen" />
 
