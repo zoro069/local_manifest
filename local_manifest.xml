@@ -2,11 +2,10 @@
 <manifest>
 
         <remote  name="finn"
-                fetch="https://github.com/axsrog" />
+                fetch="https://github.com/arefinx" />
 
-        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="finn" revision="thirteen"/>
-        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="finn" revision="thirteen" />
-        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="finn" revision="thirteen"/>
-        <project path="bionic" name="bionic" remote="finn" revision="thirteen" />
+        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="finn" revision="triton"/>
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="finn" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="finn" revision="thirteen" clone-depth="1" />
 
 </manifest>
