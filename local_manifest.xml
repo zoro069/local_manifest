@@ -4,8 +4,8 @@
         <remote  name="finn"
                 fetch="https://github.com/arefinx" />
 
-        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="finn" revision="triton"/>
-        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="finn" revision="thirteen" clone-depth="1" />
-        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="finn" revision="thirteen" clone-depth="1" />
+        <project path="device/xiaomi/sunny" name="device_xiaomi_sunny" remote="finn" revision="pixys"/>
+        <project path="kernel/xiaomi/sunny" name="kernel_xiaomi_sunny" remote="finn" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/sunny" name="vendor_xiaomi_sunny" remote="finn" revision="thirteen" clone-depth="1" />
 
 </manifest>
